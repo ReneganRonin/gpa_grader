@@ -47,7 +47,7 @@ fn run(all_subjects: Vec<Subject>) {
             name, credits, grade
         );
     }
-    println!("GWA: {:.4}", gwa(&total_credits, &cumulative_score));
+    println!("GPA: {:.4}", gwa(&total_credits, &cumulative_score));
 }
 
 fn gwa(total_credits: &[f64], cumulative_score: &[f64]) -> f64 {
